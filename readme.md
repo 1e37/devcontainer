@@ -7,10 +7,12 @@ https://containers.dev/
 
 First, you can eather compile Devpod from its source by using the rpmbuild enviroment, or just install the precompiled .rpm file for x86_64 systems from the RPM folder.
 
-###Compile yourself:
-**sudo dnf install rpm-build rpmdevtools**
-**rpmdev-setuptree**
-**rpmbuild -ba devpod.spec**
+###Compile yourself: ###
+
+- **[sudo dnf install rpm-build rpmdevtools]**
+- **[rpmdev-setuptree]**
+- **[rpmbuild -ba devpod.spec]**
+
 
 After Devpod is up and running, check if the enviroment variable in ~/.bashrc exists : "export PATH=$PATH:/usr/sbin/devpod-cli"
 
