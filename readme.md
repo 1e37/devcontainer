@@ -9,12 +9,12 @@ First, you can eather compile Devpod from its source by using the rpmbuild envir
 
 ###Compile yourself: ###
 
-- **[sudo dnf install rpm-build rpmdevtools]**
-- **[rpmdev-setuptree]**
-- **[rpmbuild -ba devpod.spec]**
+- **sudo dnf install rpm-build rpmdevtools**
+- **rpmdev-setuptree**
+- **rpmbuild -ba devpod.spec**
 
 
-After Devpod is up and running, check if the enviroment variable in ~/.bashrc exists : - **["export PATH=$PATH:/usr/sbin/devpod-cli"]**
+After Devpod is up and running, check if the enviroment variable in ~/.bashrc exists : - **"export PATH=$PATH:/usr/sbin/devpod-cli"**
 
 Now its time install the VSCodium extension "3timeslazy.vscodium-devpodcontainers"
 
