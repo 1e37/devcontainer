@@ -5,7 +5,7 @@ https://containers.dev/
 
 
 
-First, you can eather compile Devpod from its source by using the rpmbuild enviroment, or just install the precompiled .rpm file for x86_64 systems from the RPM folder.
+First, you can eather compile Devpod from its source by using the rpmbuild enviroment, or just install the precompiled .rpm file for x86_64 systems from the rpmbuild folder.
 
 ###Compile yourself: ###
 
