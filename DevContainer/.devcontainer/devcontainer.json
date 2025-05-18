@@ -1,3 +1,14 @@
+
+// Explanation of the Configuration
+// name: A friendly name for the DevContainer.
+// containerName: The name of the container when it runs.
+// build:
+// dockerfile: Path to the Dockerfile used to build the container.
+// context: The build context (parent directory of the .devcontainer folder).
+// workspaceMount: Specifies how the workspace is mounted (left empty for default behavior).
+// workspaceFolder: The folder inside the container where the workspace is mounted. Uses ${localWorkspaceFolderBasename} to dynamically set the folder name based on the local workspace.
+// runArgs: Additional arguments passed to docker run. Here, it mounts the local workspace folder to the container with the :Z flag for SELinux compatibility.
+
 {
   "name": "Devcontainer Template",
   "containerName": "Devcontainer",
