@@ -1,4 +1,4 @@
-###Integration of Devcontainer using DevPod & Vscodium @ Fedora 42 
+###Integration of Devcontainer using DevPod & VSCodium @ Fedora 42 
 https://containers.dev/
 
 >DevContainers are isolated development environments that run in clean containers, avoiding conflicts with other builds or system dependencies. They are easy to reproduce and provide a stable base for CI/CD pipelines. By mounting local workspaces, they enable remote development without bloating its own system.
@@ -14,9 +14,9 @@ First, you can eather compile Devpod from its source by using the rpmbuild envir
 - **[rpmbuild -ba devpod.spec]**
 
 
-After Devpod is up and running, check if the enviroment variable in ~/.bashrc exists : "export PATH=$PATH:/usr/sbin/devpod-cli"
+After Devpod is up and running, check if the enviroment variable in ~/.bashrc exists : - **["export PATH=$PATH:/usr/sbin/devpod-cli"]**
 
-Now its time install the VsCodium extension "3timeslazy.vscodium-devpodcontainers"
+Now its time install the VSCodium extension "3timeslazy.vscodium-devpodcontainers"
 
-After Installing you can start VsCodium from the DevContainer folder and the plugin will create a new container. our current local workdir is also the remote dir. 
-enjoy :)
+After installing, you can start VSCodium from the DevContainer folder and the plugin will create a new docker/podman container. Our current local workdir is also the remote dir. 
+Enjoy! :)
