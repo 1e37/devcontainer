@@ -18,5 +18,5 @@ After Devpod is up and running, check if the enviroment variable in ~/.bashrc ex
 
 Now its time install the VSCodium extension "3timeslazy.vscodium-devpodcontainers"
 
-After installing, you can start VSCodium from the DevContainer folder and the plugin will create a new docker/podman container. Our current local workdir is also the remote dir. 
+After installing, you can start VSCodium from the DevContainer folder and the plugin will create a new docker/podman container. Our current local workdir will be mounted in the remote directory of the container. All dependencys and dev tools are now seperated from the host system.
 Enjoy! :)
